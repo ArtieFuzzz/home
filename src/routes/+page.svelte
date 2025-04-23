@@ -35,8 +35,8 @@
       <div class="flex flex-col gap-2.5 w-full h-full">
         <Link
           icon="simple-icons:github"
-          link="https://example.net"
-          name="Example"
+          link="https://github.com/ArtieFuzzz"
+          name="GitHub"
         />
       </div>
     </div>

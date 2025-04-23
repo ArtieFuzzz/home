@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Icon, { type IconifyIcon } from "@iconify/svelte";
+  import Icon from "@iconify/svelte"; // Create some animation thingymabob
 
   const props: { link: string; name: string; icon: string } = $props();
 </script>
