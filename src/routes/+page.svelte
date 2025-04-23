@@ -1,5 +1,6 @@
 <script lang="ts">
   import Heading from "../components/Heading.svelte";
+  import Link from "../components/Link.svelte";
 
   const year = new Date().getFullYear();
 </script>
@@ -28,8 +29,16 @@
 
 <div class="flex flex-col w-full h-full bg-black">
   <div class="flex flex-row w-full h-full">
-    <div class="flex flex-col p-3 w-52 border-pink border-r-1">
+    <div class="flex flex-col p-3 gap-5 w-52 border-pink border-r-1">
       <Heading title="say hi." description="find me around." />
+
+      <div class="flex flex-col gap-2.5 w-full h-full">
+        <Link
+          icon="simple-icons:github"
+          link="https://example.net"
+          name="Example"
+        />
+      </div>
     </div>
     <div class="flex flex-col p-3 w-full h-full">
       <Heading title="projects." description="w.i.p. or completed." />
