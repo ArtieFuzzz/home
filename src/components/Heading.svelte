@@ -1,5 +1,5 @@
 <script lang="ts">
-  let props: { title: string; description: string } = $props();
+const props: { title: string; description: string } = $props();
 </script>
 
 <div class="flex flex-col">

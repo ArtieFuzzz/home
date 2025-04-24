@@ -1,11 +1,24 @@
 <script lang="ts">
-  import Heading from "../components/Heading.svelte";
-  import Link from "../components/Link.svelte";
+import { staggeredLinks } from "$lib/motion.svelte";
+import Heading from "../components/Heading.svelte";
+import Link from "../components/Link.svelte";
 
-  const year = new Date().getFullYear();
+const profiles: { name: string; icon: string; url: string }[] = [
+  {
+    name: "GitHub",
+    icon: "simple-icons:github",
+    url: "https://github.com/ArtieFuzzz",
+  },
+  {
+    name: "SourceHut",
+    icon: "simple-icons:sourcehut",
+    url: "https://git.sr.ht/~artiefuzzz",
+  },
+];
+const year = new Date().getFullYear();
 </script>
 
-<div class="flex flex-col my-auto lg:w-[30%] h-full bg-pink p-14">
+<div class="flex flex-col my-auto lg:w-[30%] h-full bg-pink p-14 z-10">
   <div class="flex flex-col w-full h-full">
     <div class="flex flex-col w-full h-fit">
       <h1 class="text-3xl font-medium text-white font-heading">
@@ -32,13 +45,17 @@
     <div class="flex flex-col p-3 gap-5 w-52 border-pink border-r-1">
       <Heading title="say hi." description="find me around." />
 
-      <div class="flex flex-col gap-2.5 w-full h-full">
-        <Link
-          icon="simple-icons:github"
-          link="https://github.com/ArtieFuzzz"
-          name="GitHub"
-        />
-      </div>
+      <ul
+        id="profiles"
+        use:staggeredLinks
+        class="flex flex-col gap-2.5 w-full h-full"
+      >
+        {#each profiles as profile}
+          <li class="opacity-0">
+            <Link name={profile.name} link={profile.url} icon={profile.icon} />
+          </li>
+        {/each}
+      </ul>
     </div>
     <div class="flex flex-col p-3 w-full h-full">
       <Heading title="projects." description="w.i.p. or completed." />

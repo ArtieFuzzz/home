@@ -1,7 +1,7 @@
 <script lang="ts">
-  import "../main.css";
+import "../main.css";
 
-  const { children } = $props();
+const { children } = $props();
 </script>
 
 <div class="flex flex-row w-screen h-screen">
