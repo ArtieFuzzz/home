@@ -1,21 +1,23 @@
 <script lang="ts">
-import { staggeredLinks } from "$lib/motion.svelte";
-import Heading from "../components/Heading.svelte";
-import Link from "../components/Link.svelte";
+  import { staggeredLinks } from "$lib/motion.svelte";
+  import Heading from "../components/Heading.svelte";
+  import Link from "../components/Link.svelte";
+  import Lanyard from "../components/Lanyard.svelte";
 
-const profiles: { name: string; icon: string; url: string }[] = [
-  {
-    name: "GitHub",
-    icon: "simple-icons:github",
-    url: "https://github.com/ArtieFuzzz",
-  },
-  {
-    name: "SourceHut",
-    icon: "simple-icons:sourcehut",
-    url: "https://git.sr.ht/~artiefuzzz",
-  },
-];
-const year = new Date().getFullYear();
+  const profiles: { name: string; icon: string; url: string }[] = [
+    {
+      name: "GitHub",
+      icon: "simple-icons:github",
+      url: "https://github.com/ArtieFuzzz",
+    },
+    {
+      name: "SourceHut",
+      icon: "simple-icons:sourcehut",
+      url: "https://git.sr.ht/~artiefuzzz",
+    },
+  ];
+
+  const year = new Date().getFullYear();
 </script>
 
 <div class="flex flex-col my-auto lg:w-[30%] h-full bg-pink p-14 z-10">
@@ -29,6 +31,8 @@ const year = new Date().getFullYear();
       </p>
     </div>
   </div>
+
+  <Lanyard />
 
   <div class="flex flex-col w-full h-full">
     <div class="flex flex-col w-full h-full"></div>
