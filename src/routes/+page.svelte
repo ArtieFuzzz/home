@@ -63,6 +63,10 @@
     </div>
     <div class="flex flex-col p-3 w-full h-full">
       <Heading title="projects." description="w.i.p. or completed." />
+
+      <div class="pt-2">
+        <p class="text-base font-body text-white">Work In Progress.</p>
+      </div>
     </div>
   </div>
   <div class="flex flex-row w-full h-full">
@@ -70,12 +74,19 @@
       class="flex flex-col p-3 h-full w-md border-pink border-r-1 border-t-1"
     >
       <Heading title="languages & tools." description="things I use." />
+      <div class="pt-2">
+        <p class="text-base font-body text-white">Work In Progress.</p>
+      </div>
     </div>
     <div class="flex flex-col p-3 w-full h-full border-pink border-t-1">
       <Heading
         title="contributions"
         description="projects or companies I contributed to."
       />
+
+      <div class="pt-2">
+        <p class="text-base font-body text-white">Work In Progress.</p>
+      </div>
     </div>
   </div>
 </div>
