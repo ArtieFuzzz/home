@@ -15,9 +15,17 @@
       icon: "simple-icons:sourcehut",
       url: "https://git.sr.ht/~artiefuzzz",
     },
+    {
+      name: "Email",
+      icon: "mdi:email-outline",
+      url: "mailto:hey@astolfo.cafe",
+    },
+    {
+      name: "Matrix",
+      icon: "simple-icons:matrix",
+      url: "https://matrix.to/#/@artsy.:astolfo.cafe",
+    },
   ];
-
-  const year = new Date().getFullYear();
 </script>
 
 <div class="flex flex-col my-auto lg:w-[30%] h-full bg-pink p-14 z-10">
@@ -38,7 +46,7 @@
     <div class="flex flex-col w-full h-full"></div>
     <div class="flex flex-row justify-center items-center w-full h-fit">
       <p class="text-base font-normal text-white font-body">
-        &copy; artiefuzzz - {year}
+        &copy; artiefuzzz - {new Date().getFullYear()}
       </p>
     </div>
   </div>

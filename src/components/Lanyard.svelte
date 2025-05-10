@@ -87,7 +87,7 @@
             />
 
             <div class="flex flex-col">
-              <p class="text-white font-body font-semibold text-base">
+              <p class="text-white font-body font-semibold text-base w-full">
                 {$lanyard.spotify.song}
               </p>
               <p class="text-white font-body text-sm">
@@ -136,5 +136,7 @@
 <style>
   :where(#activities) {
     scrollbar-width: thin;
+    scrollbar-gutter: stable both-edges;
+    scrollbar-color: rgba(223, 164, 194, 1) rgba(28, 30, 30, 1);
   }
 </style>
