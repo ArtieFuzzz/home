@@ -25,6 +25,16 @@
       icon: "simple-icons:matrix",
       url: "https://matrix.to/#/@artsy.:astolfo.cafe",
     },
+    {
+      name: "Last.FM",
+      icon: "simple-icons:lastdotfm",
+      url: "https://last.fm/user/artiefuzzz",
+    },
+    {
+      name: "Steam",
+      icon: "simple-icons:steam",
+      url: "https://steamcommunity.com/id/ArtieFuzzz/",
+    },
   ];
 </script>
 
