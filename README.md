@@ -3,4 +3,3 @@
 
 ## Considerations
 
-- Switiching to Iconify Icon web component.
