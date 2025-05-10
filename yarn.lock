@@ -2283,7 +2283,7 @@ __metadata:
     "@tailwindcss/vite": "npm:^4.1.4"
     "@yuna0x0/sk-lanyard": "npm:^0.3.0"
     dayjs: "npm:^1.11.13"
-    iconify-icon: "npm:^2.3.0"
+    iconify-icon: "npm:^3.0.0"
     motion: "npm:^12.7.5"
     sk-lanyard: "npm:^0.2.7"
     svelte: "npm:^5.0.0"
@@ -2321,12 +2321,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"iconify-icon@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "iconify-icon@npm:2.3.0"
+"iconify-icon@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "iconify-icon@npm:3.0.0"
   dependencies:
     "@iconify/types": "npm:^2.0.0"
-  checksum: 10c0/9fdae67e7257cce31b6bea0a671512de67c64ae13710c21c3159d033d84ce0dfe792f223011b56de9e83796ee8745b62eb76fea419d78f593f430e3fa9b309f1
+  checksum: 10c0/aa8b99c00e2328e1dfd31fed72b8b4770097063cd50792eb3dd0fc3892ce25a4ae28b4f9c8c3a379851a516572b91f041b1fe64c6ad7093bad42b7f4496131bf
   languageName: node
   linkType: hard
 
