@@ -24,31 +24,37 @@
 
 <div class="flex flex-col w-full h-[75rem] bg-black p-4 gap-4 rounded-md">
   {#if $lanyard}
-    <div class="flex flex-row w-full h-fit gap-3">
-      <img
-        class="rounded-sm"
-        src={`https://api.lanyard.rest/${$lanyard.discord_user.id}.webp`}
-        height="64"
-        width="64"
-        alt="Profile"
-      />
+    <div class="flex flex-col w-full h-fit gap-1">
+      <div class="flex flex-row w-full h-fit gap-3">
+        <img
+          class="rounded-sm"
+          src={`https://api.lanyard.rest/${$lanyard.discord_user.id}.webp`}
+          height="64"
+          width="64"
+          alt="Profile"
+        />
 
-      <div class="flex flex-col w-fit h-full justify-end items-start">
-        <p
-          class="text-base font-body font-semibold text-white inline-flex gap-2 items-baseline"
-        >
-          {$lanyard.discord_user.display_name}
-          <iconify-icon
-            class={statusColor($lanyard.discord_status)}
-            icon="ic:twotone-circle"
-            width="12"
-            height="12"
-          ></iconify-icon>
-        </p>
-        <p class="text-base font-body text-white opacity-50">
-          {$lanyard.discord_user.username}
-        </p>
+        <div class="flex flex-col w-fit h-full justify-end items-start">
+          <p
+            class="text-base font-body font-semibold text-white inline-flex gap-2 items-baseline"
+          >
+            {$lanyard.discord_user.display_name}
+            <iconify-icon
+              class={statusColor($lanyard.discord_status)}
+              icon="ic:twotone-circle"
+              width="12"
+              height="12"
+            ></iconify-icon>
+          </p>
+          <p class="text-base font-body text-white opacity-50">
+            {$lanyard.discord_user.username}
+          </p>
+        </div>
       </div>
+
+      <p class="text-base opacity-85 font-body italic font-light text-white">
+        {$lanyard.activities.filter((activity) => activity.type === 4)[0].state}
+      </p>
     </div>
 
     <div
@@ -92,7 +98,7 @@
         </div>
       {/if}
 
-      {#each $lanyard.activities.filter((activity) => activity.type != 2 && activity.type != 4) as activity}
+      {#each $lanyard.activities.filter((activity) => activity.type !== 2 && activity.type !== 4) as activity}
         <div class="flex flex-col w-full h-fit">
           <div class="flex gap-3 flex-row w-full">
             <img
