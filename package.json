@@ -22,7 +22,7 @@
     "typescript": "^5.0.0",
     "vite": "^6.2.5"
   },
-  "packageManager": "yarn@4.9.1",
+  "packageManager": "yarn@4.9.2",
   "dependencies": {
     "@tailwindcss/vite": "^4.1.4",
     "@yuna0x0/sk-lanyard": "^0.3.0",
