@@ -3,39 +3,7 @@
   import Heading from "../components/Heading.svelte";
   import Link from "../components/Link.svelte";
   import Lanyard from "../components/Lanyard.svelte";
-
-  const profiles: { name: string; icon: string; url: string }[] = [
-    {
-      name: "GitHub",
-      icon: "simple-icons:github",
-      url: "https://github.com/ArtieFuzzz",
-    },
-    {
-      name: "SourceHut",
-      icon: "simple-icons:sourcehut",
-      url: "https://git.sr.ht/~artiefuzzz",
-    },
-    {
-      name: "Email",
-      icon: "mdi:email-outline",
-      url: "mailto:hey@astolfo.cafe",
-    },
-    {
-      name: "Matrix",
-      icon: "simple-icons:matrix",
-      url: "https://matrix.to/#/@artsy.:astolfo.cafe",
-    },
-    {
-      name: "Last.FM",
-      icon: "simple-icons:lastdotfm",
-      url: "https://last.fm/user/artiefuzzz",
-    },
-    {
-      name: "Steam",
-      icon: "simple-icons:steam",
-      url: "https://steamcommunity.com/id/ArtieFuzzz/",
-    },
-  ];
+  import { profiles } from "$lib/constants";
 </script>
 
 <div class="flex flex-col my-auto lg:w-[30%] h-full bg-pink p-14 z-10">
@@ -74,7 +42,12 @@
       >
         {#each profiles as profile}
           <li class="opacity-0">
-            <Link name={profile.name} link={profile.url} icon={profile.icon} />
+            <Link
+              name={profile.name}
+              link={profile.url}
+              icon={profile.icon}
+              type={profile.rel}
+            />
           </li>
         {/each}
       </ul>
