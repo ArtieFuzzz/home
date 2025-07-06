@@ -1,9 +1,10 @@
 <script lang="ts">
+  import "iconify-icon";
   import { staggeredLinks } from "$lib/motion.svelte";
   import Heading from "../components/Heading.svelte";
   import Link from "../components/Link.svelte";
   import Lanyard from "../components/Lanyard.svelte";
-  import { profiles } from "$lib/constants";
+  import { profiles, tech } from "$lib/constants";
 </script>
 
 <div class="flex flex-col my-auto lg:w-[30%] h-full bg-pink p-14 z-10">
@@ -64,9 +65,20 @@
     <div
       class="flex flex-col p-3 h-full w-md border-pink border-r-1 border-t-1"
     >
-      <Heading title="languages & tools." description="things I use." />
+      <Heading title="languages & software." description="things I use." />
       <div class="pt-2">
-        <p class="text-base font-body text-white">Work In Progress.</p>
+        <div
+          class="w-full h-full flex flex-row flex-wrap justify-start items-center gap-2"
+        >
+          {#each tech as item}
+            <iconify-icon
+              icon={`simple-icons:${item.icon}`}
+              style={`color: ${item.color};`}
+              height="32"
+              width="32"
+            ></iconify-icon>
+          {/each}
+        </div>
       </div>
     </div>
     <div class="flex flex-col p-3 w-full h-full border-pink border-t-1">
