@@ -10,9 +10,19 @@
 <div class="flex flex-col my-auto lg:w-[30%] h-full bg-pink p-14 z-10">
   <div class="flex flex-col w-full h-full">
     <div class="flex flex-col w-full h-fit">
-      <h1 class="text-3xl font-medium text-white font-heading">
-        <p><span class="underline">Artie</span>Fuzzz</p>
-      </h1>
+      <div class="flex flex-row items-baseline justify-start gap-3">
+        <h1 class="text-3xl font-medium text-white font-heading">
+          <p><span class="underline">Artie</span>Fuzzz</p>
+        </h1>
+        <a href="https://en.pronouns.page/@ArtieFuzzz"
+          ><p
+            class="underline font-normal text-white underline-offset-4 text-base"
+          >
+            (she/her)
+          </p></a
+        >
+      </div>
+
       <p class="text-base font-normal text-white font-body">
         Software Developer, UI Developer, Sys-Admin.
       </p>
