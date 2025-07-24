@@ -930,8 +930,8 @@ __metadata:
   linkType: hard
 
 "@sveltejs/kit@npm:^2.16.0":
-  version: 2.25.1
-  resolution: "@sveltejs/kit@npm:2.25.1"
+  version: 2.25.2
+  resolution: "@sveltejs/kit@npm:2.25.2"
   dependencies:
     "@sveltejs/acorn-typescript": "npm:^1.0.5"
     "@types/cookie": "npm:^0.6.0"
@@ -951,7 +951,7 @@ __metadata:
     vite: ^5.0.3 || ^6.0.0 || ^7.0.0-beta.0
   bin:
     svelte-kit: svelte-kit.js
-  checksum: 10c0/ed10c5b2e35cda82addb70a9305f494fac836e00028d1fb5252d2d2e084a7a787c97f9ac9291402ed9d4dcff92e2b4987d57d10556c552f80845df7195b3c643
+  checksum: 10c0/3f11e5f4f043979a559f323089fcae74604d867f69c1af402a0617884a5b015624a32751bb3819f55a75da4a4665f3d9cb40e0baaaa1160a9212178438d6d173
   languageName: node
   linkType: hard
 
@@ -1796,11 +1796,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^12.23.6":
-  version: 12.23.6
-  resolution: "framer-motion@npm:12.23.6"
+"framer-motion@npm:^12.23.7":
+  version: 12.23.7
+  resolution: "framer-motion@npm:12.23.7"
   dependencies:
-    motion-dom: "npm:^12.23.6"
+    motion-dom: "npm:^12.23.7"
     motion-utils: "npm:^12.23.6"
     tslib: "npm:^2.4.0"
   peerDependencies:
@@ -1814,7 +1814,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/4bb30b6a39cb3a0cd70a103fa8c321c751d2d308253fb84c3ed3c97ac7278cbd2b66e8b76207f540f2760d024d516e50f7038c15ba63f42c9184d8dab02d7478
+  checksum: 10c0/46f128b5f5cbfbd454390f86c4a850dd704caf6f9bf44719e41f7dbca0f498b0ad4ac8c02e90c0c6215c8d0b645da52c5b251eead40ec252939cd8e10659c483
   languageName: node
   linkType: hard
 
@@ -2265,12 +2265,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"motion-dom@npm:^12.23.6":
-  version: 12.23.6
-  resolution: "motion-dom@npm:12.23.6"
+"motion-dom@npm:^12.23.7":
+  version: 12.23.7
+  resolution: "motion-dom@npm:12.23.7"
   dependencies:
     motion-utils: "npm:^12.23.6"
-  checksum: 10c0/4f4c5e9fcabdad6e3523c71f1e23bd0cb50a71e362a02d1897dfd30f85b044c88ccf62d506dfa35388b035d4073714b9ad021c70c858eab7d6c2227908ee18cc
+  checksum: 10c0/611e9eacad38820a2736027b1634f4ba97337bb480db403f5f589355564bd0a7083f347c79278193870ef576a55975b254787f8d121b56645a7da58203187f9f
   languageName: node
   linkType: hard
 
@@ -2282,10 +2282,10 @@ __metadata:
   linkType: hard
 
 "motion@npm:^12.7.5":
-  version: 12.23.6
-  resolution: "motion@npm:12.23.6"
+  version: 12.23.7
+  resolution: "motion@npm:12.23.7"
   dependencies:
-    framer-motion: "npm:^12.23.6"
+    framer-motion: "npm:^12.23.7"
     tslib: "npm:^2.4.0"
   peerDependencies:
     "@emotion/is-prop-valid": "*"
@@ -2298,7 +2298,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/f0475a7b5e9b54919c45ce7e4a40bbeb46cdc84358e6c80c40ad797fe6d0bbbb83958c2d8f5522a7a4fb83d1f3ceddfa20505fa96b07ea2133bb9b60377f9cd7
+  checksum: 10c0/14122d0d2d9e2692f01e44fe16f79121f3b2eafbd8d45db7d4bb9ba23227232308cc3ea058141b7cdcbf71c324f9f6d0a321b211be89d5acecd76d89eb2ce26d
   languageName: node
   linkType: hard
 
@@ -2766,8 +2766,8 @@ __metadata:
   linkType: hard
 
 "svelte@npm:^5.0.0":
-  version: 5.36.13
-  resolution: "svelte@npm:5.36.13"
+  version: 5.36.14
+  resolution: "svelte@npm:5.36.14"
   dependencies:
     "@ampproject/remapping": "npm:^2.3.0"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -2783,7 +2783,7 @@ __metadata:
     locate-character: "npm:^3.0.0"
     magic-string: "npm:^0.30.11"
     zimmerframe: "npm:^1.1.2"
-  checksum: 10c0/330fda23a52fc4f780c5e678577dcfd0a778b584fdfb036dda19e7df638eae602fe8c3d6eaed3e6a702965d296c2b1d9921bdbd64f7bd86ac14d093812015c12
+  checksum: 10c0/04b1024aa6008bbff5eacc5eb735b1985bed74bacd8dc94f8627614dcb1177a3f650589771031283d395612b6fe1b0e0077fc32e5276da4b26f9733b3da797b6
   languageName: node
   linkType: hard
 
