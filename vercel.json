@@ -15,10 +15,6 @@
         {
           "key": "Permissions-Policy",
           "value": "geolocation=() camera=() microphone=()"
-        },
-        {
-          "key": "Content-Security-Policy",
-          "value": "default-src 'self' api.fonts.coollabs.io, iconify.design"
         }
       ]
     }
