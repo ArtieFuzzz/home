@@ -1093,20 +1093,20 @@ __metadata:
   linkType: hard
 
 "@sveltejs/adapter-vercel@npm:^5.6.3":
-  version: 5.9.0
-  resolution: "@sveltejs/adapter-vercel@npm:5.9.0"
+  version: 5.9.1
+  resolution: "@sveltejs/adapter-vercel@npm:5.9.1"
   dependencies:
     "@vercel/nft": "npm:^0.30.0"
     esbuild: "npm:^0.25.4"
   peerDependencies:
     "@sveltejs/kit": ^2.4.0
-  checksum: 10c0/1de420cfac9b4f3a306c63b0b10d96817eaef085ee427c30d2ed8e29e85cc2f61d937866ccee979b3e322d92de79f7862504050df482fa2733569058145b3275
+  checksum: 10c0/d98f23a7063c49071cde39e2940ebf12fc6ce9a5108015e2a1bd25c6302011aa0d335332aa5f15c3061da2c0ccfd3da7d34bc91d17e40856b1505f692c631c87
   languageName: node
   linkType: hard
 
 "@sveltejs/kit@npm:^2.16.0":
-  version: 2.31.0
-  resolution: "@sveltejs/kit@npm:2.31.0"
+  version: 2.31.1
+  resolution: "@sveltejs/kit@npm:2.31.1"
   dependencies:
     "@standard-schema/spec": "npm:^1.0.0"
     "@sveltejs/acorn-typescript": "npm:^1.0.5"
@@ -1131,7 +1131,7 @@ __metadata:
       optional: true
   bin:
     svelte-kit: svelte-kit.js
-  checksum: 10c0/672fd57f7d617c8c7aa84f26e6ca387584574d40b7741339971fbb08ba26b4d740f2010388d6357ec564bb93d1d9308c22ef5dbec093b460c8dd2206fb28e38b
+  checksum: 10c0/8a3d3af40d7d936ea8c501761c646794884fa584c919c5a36d5c1e5a3ace08c738e5dc1d3a810c29c44723fb5d38ad620c71ebcbe518c050a2b98e73aea40f23
   languageName: node
   linkType: hard
 
