@@ -12,7 +12,7 @@
   <script
     defer
     data-domain="dev.astolfo.cafe"
-    src="https://analytics.astolfo.cafe/js/script.js"
+    src="https://plausible.canine.tools/js/script.js"
   ></script>
 
   <meta property="og:title" content="ArtieFuzzz" />
