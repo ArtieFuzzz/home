@@ -18,7 +18,7 @@
         },
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self' coollabs.io, iconify.design"
+          "value": "default-src 'self' api.fonts.coollabs.io, iconify.design"
         }
       ]
     }
