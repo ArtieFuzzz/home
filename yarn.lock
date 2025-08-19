@@ -1093,20 +1093,20 @@ __metadata:
   linkType: hard
 
 "@sveltejs/adapter-vercel@npm:^5.6.3":
-  version: 5.9.1
-  resolution: "@sveltejs/adapter-vercel@npm:5.9.1"
+  version: 5.10.1
+  resolution: "@sveltejs/adapter-vercel@npm:5.10.1"
   dependencies:
     "@vercel/nft": "npm:^0.30.0"
     esbuild: "npm:^0.25.4"
   peerDependencies:
     "@sveltejs/kit": ^2.4.0
-  checksum: 10c0/d98f23a7063c49071cde39e2940ebf12fc6ce9a5108015e2a1bd25c6302011aa0d335332aa5f15c3061da2c0ccfd3da7d34bc91d17e40856b1505f692c631c87
+  checksum: 10c0/335c24a8b653f123741c60215c22e18249c7921730f9044ad55f26fe22bb657414f94f12ba93b2c08b1ac5bbcc1c76bcc86287d01d75e004c6044708d2f54a1a
   languageName: node
   linkType: hard
 
 "@sveltejs/kit@npm:^2.16.0":
-  version: 2.31.1
-  resolution: "@sveltejs/kit@npm:2.31.1"
+  version: 2.33.0
+  resolution: "@sveltejs/kit@npm:2.33.0"
   dependencies:
     "@standard-schema/spec": "npm:^1.0.0"
     "@sveltejs/acorn-typescript": "npm:^1.0.5"
@@ -1131,7 +1131,7 @@ __metadata:
       optional: true
   bin:
     svelte-kit: svelte-kit.js
-  checksum: 10c0/8a3d3af40d7d936ea8c501761c646794884fa584c919c5a36d5c1e5a3ace08c738e5dc1d3a810c29c44723fb5d38ad620c71ebcbe518c050a2b98e73aea40f23
+  checksum: 10c0/6be8c4b6a6bd4fc782f41b76a51866e414b0a253c4025c20e717f32852485b2d9f46abdb27cb7edbe1ee451a709a17009e7482cea4a286bb2dcced948045f6ae
   languageName: node
   linkType: hard
 
@@ -3028,8 +3028,8 @@ __metadata:
   linkType: hard
 
 "svelte@npm:^5.0.0":
-  version: 5.38.1
-  resolution: "svelte@npm:5.38.1"
+  version: 5.38.2
+  resolution: "svelte@npm:5.38.2"
   dependencies:
     "@jridgewell/remapping": "npm:^2.3.4"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -3045,7 +3045,7 @@ __metadata:
     locate-character: "npm:^3.0.0"
     magic-string: "npm:^0.30.11"
     zimmerframe: "npm:^1.1.2"
-  checksum: 10c0/ed2a42c2c633b3371425e5584bdc20d5af0b44d6a142bd359d701e9a2beb07ffce872b28be0a3e50f38bf16e17a2ff7b9bdd69ede0c256d6a011e3dfdbde5ebc
+  checksum: 10c0/be7d245d99f00294984a99d2c75eb4f2badaf06235b53b335b15a544aadd6fa304177c0e216754305abd737127473068fae5398cc0c5bac3974aa3a82610075c
   languageName: node
   linkType: hard
 
