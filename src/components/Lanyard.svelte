@@ -1,25 +1,25 @@
 <script lang="ts">
-  import "iconify-icon";
-  import dayjs from "dayjs";
-  import relativeTime from "dayjs/plugin/relativeTime";
-  import { useLanyard } from "@yuna0x0/sk-lanyard";
+import "iconify-icon";
+import dayjs from "dayjs";
+import relativeTime from "dayjs/plugin/relativeTime";
+import { useLanyard } from "@yuna0x0/sk-lanyard";
 
-  dayjs.extend(relativeTime);
+dayjs.extend(relativeTime);
 
-  const lanyard = useLanyard({ id: "389252140184633363", method: "ws" });
+const lanyard = useLanyard({ id: "389252140184633363", method: "ws" });
 
-  const statusColor = (status: string) => {
-    switch (status) {
-      case "online":
-        return "text-green-300";
-      case "idle":
-        return "text-yellow-300";
-      case "dnd":
-        return "text-red-300";
-      case "offline":
-        return "text-gray-500";
-    }
-  };
+const statusColor = (status: string) => {
+  switch (status) {
+    case "online":
+      return "text-green-300";
+    case "idle":
+      return "text-yellow-300";
+    case "dnd":
+      return "text-red-300";
+    case "offline":
+      return "text-gray-500";
+  }
+};
 </script>
 
 <div class="flex flex-col w-full h-[75rem] bg-black p-4 gap-4 rounded-md">
@@ -53,7 +53,8 @@
       </div>
 
       <p class="text-base opacity-85 font-body italic font-light text-white">
-        {$lanyard.activities.filter((activity) => activity.type === 4)[0].state}
+        {$lanyard.activities.filter((activity) => activity.type === 4)[0]
+          ?.state ?? ""}
       </p>
     </div>
 
