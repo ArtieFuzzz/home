@@ -29,7 +29,6 @@
     "dayjs": "^1.11.13",
     "iconify-icon": "^3.0.0",
     "motion": "^12.7.5",
-    "sk-lanyard": "^0.2.7",
     "tailwindcss": "^4.1.4"
   }
 }
