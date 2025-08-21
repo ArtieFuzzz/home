@@ -1,10 +1,10 @@
 <script lang="ts">
-  import "iconify-icon";
-  import { staggeredLinks } from "$lib/motion.svelte";
-  import Heading from "../components/Heading.svelte";
-  import Link from "../components/Link.svelte";
-  import Lanyard from "../components/Lanyard.svelte";
-  import { profiles, tech } from "$lib/constants";
+import "iconify-icon";
+import { staggeredLinks } from "$lib/motion.svelte";
+import Heading from "../components/Heading.svelte";
+import Link from "../components/Link.svelte";
+import Lanyard from "../components/Lanyard.svelte";
+import { profiles, tech } from "$lib/constants";
 </script>
 
 <div class="flex flex-col my-auto lg:w-[30%] h-full bg-pink p-14 z-10">
@@ -16,7 +16,7 @@
         </h1>
         <a href="https://en.pronouns.page/@ArtieFuzzz"
           ><p
-            class="underline font-normal text-white underline-offset-4 text-base"
+            class="underline font-normal text-white underline-offset-6 text-base"
           >
             (she/her)
           </p></a
