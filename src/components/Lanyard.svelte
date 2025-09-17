@@ -32,6 +32,7 @@
           height="64"
           width="64"
           alt="Profile"
+          draggable="false"
         />
 
         <div class="flex flex-col w-fit h-full justify-end items-start">
@@ -85,6 +86,7 @@
               height="64"
               src={$lanyard.spotify.album_art_url}
               alt="Spotify Track Cover"
+              draggable="false"
             />
 
             <div class="flex flex-col">
