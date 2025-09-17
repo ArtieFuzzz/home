@@ -10,7 +10,7 @@
 <a
   href={props.link}
   rel={props.type}
-  class="inline-flex items-center text-base font-body font-normal text-white gap-3"
+  class="inline-flex items-center text-base font-normal text-white gap-3"
 >
   <iconify-icon icon={props.icon} width="24" height="24"></iconify-icon>
   <span>{props.name}</span></a

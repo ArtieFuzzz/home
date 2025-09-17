@@ -1,25 +1,25 @@
 <script lang="ts">
-import "iconify-icon";
-import dayjs from "dayjs";
-import relativeTime from "dayjs/plugin/relativeTime";
-import { useLanyard } from "@yuna0x0/sk-lanyard";
+  import "iconify-icon";
+  import dayjs from "dayjs";
+  import relativeTime from "dayjs/plugin/relativeTime";
+  import { useLanyard } from "@yuna0x0/sk-lanyard";
 
-dayjs.extend(relativeTime);
+  dayjs.extend(relativeTime);
 
-const lanyard = useLanyard({ id: "389252140184633363", method: "ws" });
+  const lanyard = useLanyard({ id: "389252140184633363", method: "ws" });
 
-const statusColor = (status: string) => {
-  switch (status) {
-    case "online":
-      return "text-green-300";
-    case "idle":
-      return "text-yellow-300";
-    case "dnd":
-      return "text-red-300";
-    case "offline":
-      return "text-gray-500";
-  }
-};
+  const statusColor = (status: string) => {
+    switch (status) {
+      case "online":
+        return "text-green-300";
+      case "idle":
+        return "text-yellow-300";
+      case "dnd":
+        return "text-red-300";
+      case "offline":
+        return "text-gray-500";
+    }
+  };
 </script>
 
 <div class="flex flex-col w-full h-[75rem] bg-black p-4 gap-4 rounded-md">
@@ -36,7 +36,7 @@ const statusColor = (status: string) => {
 
         <div class="flex flex-col w-fit h-full justify-end items-start">
           <p
-            class="text-base font-body font-semibold text-white inline-flex gap-2 items-baseline"
+            class="text-base font-semibold text-white inline-flex gap-2 items-baseline"
           >
             {$lanyard.discord_user.display_name}
             <iconify-icon
@@ -46,13 +46,13 @@ const statusColor = (status: string) => {
               height="12"
             ></iconify-icon>
           </p>
-          <p class="text-base font-body text-white opacity-50">
+          <p class="text-base text-white opacity-50">
             {$lanyard.discord_user.username}
           </p>
         </div>
       </div>
 
-      <p class="text-base opacity-85 font-body italic font-light text-white">
+      <p class="text-base opacity-85 italic font-light text-white">
         {$lanyard.activities.filter((activity) => activity.type === 4)[0]
           ?.state ?? ""}
       </p>
@@ -62,13 +62,13 @@ const statusColor = (status: string) => {
       id="activities"
       class="flex flex-col justify-start items-start gap-3 h-full w-full overflow-y-scroll"
     >
-      <h3 class="text-white font-body text-base font-bold">
+      <h3 class="text-white text-base font-bold">
         <p>Activites</p>
       </h3>
 
       {#if $lanyard.listening_to_spotify}
         <div class="flex flex-col w-full h-fit">
-          <p class="text-white font-body text-base inline-flex gap-2">
+          <p class="text-white text-base inline-flex gap-2">
             Listening to <span
               ><iconify-icon
                 class="text-[#1ED760]"
@@ -88,10 +88,10 @@ const statusColor = (status: string) => {
             />
 
             <div class="flex flex-col">
-              <p class="text-white font-body font-semibold text-base w-full">
+              <p class="text-white font-semibold text-base w-full">
                 {$lanyard.spotify.song}
               </p>
-              <p class="text-white font-body text-sm">
+              <p class="text-white text-sm">
                 by {$lanyard.spotify.artist} on {$lanyard.spotify.album}
               </p>
             </div>
@@ -111,10 +111,10 @@ const statusColor = (status: string) => {
             />
 
             <div class="flex flex-col">
-              <p class="text-white font-body font-semibold text-base">
+              <p class="text-white font-semibold text-base">
                 {activity.name}
               </p>
-              <p class="text-white font-body text-sm">
+              <p class="text-white text-sm">
                 Time Played: {dayjs(activity.created_at).fromNow(true)}
               </p>
             </div>

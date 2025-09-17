@@ -1,17 +1,17 @@
 <script lang="ts">
-import "iconify-icon";
-import { staggeredLinks } from "$lib/motion.svelte";
-import Heading from "../components/Heading.svelte";
-import Link from "../components/Link.svelte";
-import Lanyard from "../components/Lanyard.svelte";
-import { profiles, tech } from "$lib/constants";
+  import "iconify-icon";
+  import { staggeredLinks } from "$lib/motion.svelte";
+  import Heading from "../components/Heading.svelte";
+  import Link from "../components/Link.svelte";
+  import Lanyard from "../components/Lanyard.svelte";
+  import { profiles, tech } from "$lib/constants";
 </script>
 
 <div class="flex flex-col my-auto lg:w-[30%] h-full bg-pink p-14 z-10">
   <div class="flex flex-col w-full h-full">
     <div class="flex flex-col w-full h-fit">
       <div class="flex flex-row items-baseline justify-start gap-3">
-        <h1 class="text-3xl font-medium text-white font-heading">
+        <h1 class="text-3xl font-medium text-white">
           <p><span class="underline">Artie</span>Fuzzz</p>
         </h1>
         <a href="https://en.pronouns.page/@ArtieFuzzz"
@@ -23,7 +23,7 @@ import { profiles, tech } from "$lib/constants";
         >
       </div>
 
-      <p class="text-base font-normal text-white font-body">
+      <p class="text-base font-normal text-white">
         Software Developer, UI Developer, Sys-Admin.
       </p>
     </div>
@@ -34,7 +34,7 @@ import { profiles, tech } from "$lib/constants";
   <div class="flex flex-col w-full h-full">
     <div class="flex flex-col w-full h-full"></div>
     <div class="flex flex-row justify-center items-center w-full h-fit">
-      <p class="text-base font-normal text-white font-body">
+      <p class="text-base font-normal text-white">
         &copy; artiefuzzz - {new Date().getFullYear()}
       </p>
     </div>
@@ -67,7 +67,7 @@ import { profiles, tech } from "$lib/constants";
       <Heading title="projects." description="w.i.p. or completed." />
 
       <div class="pt-2">
-        <p class="text-base font-body text-white">Work In Progress.</p>
+        <p class="text-base text-white">Work In Progress.</p>
       </div>
     </div>
   </div>
@@ -98,7 +98,7 @@ import { profiles, tech } from "$lib/constants";
       />
 
       <div class="pt-2">
-        <p class="text-base font-body text-white">Work In Progress.</p>
+        <p class="text-base text-white">Work In Progress.</p>
       </div>
     </div>
   </div>
