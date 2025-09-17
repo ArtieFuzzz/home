@@ -10,7 +10,7 @@ const config = {
       trustedOrigins: ["https://coollabs.io", "https://canine.tools"],
     },
     csp: {
-      mode: "auto",
+      mode: "nonce",
       directives: {
         "script-src": ["self", "https://plausible.canine.tools"],
         "font-src": ["self", "https://cdn.fonts.coollabs.io"],
