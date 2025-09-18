@@ -1342,9 +1342,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^12.23.13":
-  version: 12.23.13
-  resolution: "framer-motion@npm:12.23.13"
+"framer-motion@npm:^12.23.14":
+  version: 12.23.14
+  resolution: "framer-motion@npm:12.23.14"
   dependencies:
     motion-dom: "npm:^12.23.12"
     motion-utils: "npm:^12.23.6"
@@ -1360,7 +1360,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/3dc9df0f2746275ebd70d035a8ee5d37d06b2c0ad6433b477d08bf71aeeb89886c8e3282668565398f4c89668261611a84cd7b1f1e1c7a4e6745fee5f7698e0a
+  checksum: 10c0/a960ebdc04ad8bf3141ee88ab5a36fce26fafafa1d34796e41b0d1c221f2a46fcda3eab30aaa179cb05212c47e09ce710345e87449a6f042816c237a02f73437
   languageName: node
   linkType: hard
 
@@ -1826,10 +1826,10 @@ __metadata:
   linkType: hard
 
 "motion@npm:^12.7.5":
-  version: 12.23.13
-  resolution: "motion@npm:12.23.13"
+  version: 12.23.14
+  resolution: "motion@npm:12.23.14"
   dependencies:
-    framer-motion: "npm:^12.23.13"
+    framer-motion: "npm:^12.23.14"
     tslib: "npm:^2.4.0"
   peerDependencies:
     "@emotion/is-prop-valid": "*"
@@ -1842,7 +1842,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/00e9aa733f0a6d4f9cbfda18a838eef679c0fc4aa943ab73da939fbb99de1dbce6bb4c40830f6500aacf246751be7838a97a3ac243676341a9ba52a29aed9a8f
+  checksum: 10c0/03fc171d694d969a263e2f1a3a828ced5b5f1aac2ac81055dd7abc36f43acaabab5edb63ea86cb1e8a82d3b4fe5e8ca8726c56b9d00e0f39087824090ae60a86
   languageName: node
   linkType: hard
 
@@ -2277,8 +2277,8 @@ __metadata:
   linkType: hard
 
 "svelte@npm:^5.0.0":
-  version: 5.38.10
-  resolution: "svelte@npm:5.38.10"
+  version: 5.39.2
+  resolution: "svelte@npm:5.39.2"
   dependencies:
     "@jridgewell/remapping": "npm:^2.3.4"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -2294,7 +2294,7 @@ __metadata:
     locate-character: "npm:^3.0.0"
     magic-string: "npm:^0.30.11"
     zimmerframe: "npm:^1.1.2"
-  checksum: 10c0/817a2f2c56ed78312f6bd747eec3e63f7895988fb3a27f6ed5dc4342e095e64ed6339b30fda81e27ada918fcb7afd2106803a0587663d6194c8e43679c692543
+  checksum: 10c0/f1147df062521f879272c39b02f9f34f754c2c88bdcf05f67167394fec97ab8fa75526020edbef03e91970d13f97cdae91b680d9921d930f516122d929698ae2
   languageName: node
   linkType: hard
 
@@ -2406,8 +2406,8 @@ __metadata:
   linkType: hard
 
 "vite@npm:^7.0.0":
-  version: 7.1.5
-  resolution: "vite@npm:7.1.5"
+  version: 7.1.6
+  resolution: "vite@npm:7.1.6"
   dependencies:
     esbuild: "npm:^0.25.0"
     fdir: "npm:^6.5.0"
@@ -2456,7 +2456,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10c0/782d2f20c25541b26d1fb39bef5f194149caff39dc25b7836e25f049ca919f2e2ce186bddb21f3f20f6195354b3579ec637a8ca08d65b117f8b6f81e3e730a9c
+  checksum: 10c0/2cd8baec0054956dae61289dd1497109c762cfc27ec6f6b88f39a15d5ddc7e0cc4559b72fbdd701b296c739d2f734d051c28e365539462fb92f83b5e7908f9de
   languageName: node
   linkType: hard
 
