@@ -616,15 +616,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/adapter-vercel@npm:^5.6.3":
-  version: 5.10.3
-  resolution: "@sveltejs/adapter-vercel@npm:5.10.3"
+"@sveltejs/adapter-vercel@npm:^6.0.0":
+  version: 6.1.1
+  resolution: "@sveltejs/adapter-vercel@npm:6.1.1"
   dependencies:
     "@vercel/nft": "npm:^0.30.0"
     esbuild: "npm:^0.25.4"
   peerDependencies:
     "@sveltejs/kit": ^2.4.0
-  checksum: 10c0/dbb149308af592d3b60a750bbc7d6c3a6b427b9d97f5278583129cf049d0dadf571c9a81ef0a85047a329f2b46d70fcb9a65a605db5a391c53fb323a375747d2
+  checksum: 10c0/fbcbca1852cebafdc3387f5a016fc37480ec7a662a369a012cc2b8340ebdaa7dd6553f9ca2ac3202a96200fb31082532d639c9a595e16050cda7474fc25e9675
   languageName: node
   linkType: hard
 
@@ -1418,7 +1418,7 @@ __metadata:
   resolution: "home@workspace:."
   dependencies:
     "@biomejs/biome": "npm:^2.0.0"
-    "@sveltejs/adapter-vercel": "npm:^5.6.3"
+    "@sveltejs/adapter-vercel": "npm:^6.0.0"
     "@sveltejs/kit": "npm:^2.16.0"
     "@sveltejs/vite-plugin-svelte": "npm:^6.0.0"
     "@tailwindcss/vite": "npm:^4.1.4"
