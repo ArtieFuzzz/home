@@ -858,8 +858,8 @@ __metadata:
   linkType: hard
 
 "@sveltejs/vite-plugin-svelte@npm:^6.0.0":
-  version: 6.2.2
-  resolution: "@sveltejs/vite-plugin-svelte@npm:6.2.2"
+  version: 6.2.3
+  resolution: "@sveltejs/vite-plugin-svelte@npm:6.2.3"
   dependencies:
     "@sveltejs/vite-plugin-svelte-inspector": "npm:^5.0.0"
     deepmerge: "npm:^4.3.1"
@@ -869,7 +869,7 @@ __metadata:
   peerDependencies:
     svelte: ^5.0.0
     vite: ^6.3.0 || ^7.0.0
-  checksum: 10c0/aeacb9dae91e12f4f8930a9f04258bc24ecbd69c6a5f15553a22dcebee11a53b30468a627a71a8a95ee1d8f1dd16b9a2f88894fe4870bb70643e4ce87a15bf6f
+  checksum: 10c0/c6ca2f5e1b5da3054f81660a0470dd26b3ae4960b4b6576ec83f40070b1ffc5441261e4890f640bcd98916cd1ebfce8aa61b45a1c67dcc85904f5c298b1613a5
   languageName: node
   linkType: hard
 
@@ -1621,12 +1621,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^12.24.7":
-  version: 12.24.7
-  resolution: "framer-motion@npm:12.24.7"
+"framer-motion@npm:^12.24.10":
+  version: 12.24.10
+  resolution: "framer-motion@npm:12.24.10"
   dependencies:
-    motion-dom: "npm:^12.24.3"
-    motion-utils: "npm:^12.23.28"
+    motion-dom: "npm:^12.24.10"
+    motion-utils: "npm:^12.24.10"
     tslib: "npm:^2.4.0"
   peerDependencies:
     "@emotion/is-prop-valid": "*"
@@ -1639,7 +1639,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/97eb073714639b1dd639aeceefaadb35386205457a4c87a19c6de71cf24c729b422325389f59bd26d2559c272c56f38c01f58c7b26a9b379d7c6c754c9c18cc2
+  checksum: 10c0/9739d33910469d09ddd1eb481a86d3462704550821409704498bc4972e77dcb6f28f7870bae254e11406d869f3bbcb83d922218b0f68b107ad0575b769082dcb
   languageName: node
   linkType: hard
 
@@ -2098,27 +2098,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"motion-dom@npm:^12.24.3":
-  version: 12.24.3
-  resolution: "motion-dom@npm:12.24.3"
+"motion-dom@npm:^12.24.10":
+  version: 12.24.10
+  resolution: "motion-dom@npm:12.24.10"
   dependencies:
-    motion-utils: "npm:^12.23.28"
-  checksum: 10c0/983a457941a86f42caca60c519d5d3bdad289dad1b81880bf724d0ccbb606b04972db31b71b6594a87963292dcf7b8875106ac414f6b2fa5123aa68c875e8e53
+    motion-utils: "npm:^12.24.10"
+  checksum: 10c0/5564013ecc634d977fcfde53925e0f127f44de1333895b4fc00c60270240b11cb430751f10ba8d8ecac0666abe9b1b192d29bac6759d408818720785729ae20c
   languageName: node
   linkType: hard
 
-"motion-utils@npm:^12.23.28":
-  version: 12.23.28
-  resolution: "motion-utils@npm:12.23.28"
-  checksum: 10c0/3cfd3a25c83322c8d6454dd65ec17ad30a69518577166f0e6bdeefc6cafa3a7a73e29d4804b547b15a5c5c41cd1f5ca2d99c0e61d036a64a00ff33796bc286e1
+"motion-utils@npm:^12.24.10":
+  version: 12.24.10
+  resolution: "motion-utils@npm:12.24.10"
+  checksum: 10c0/b73e2e414480b0b162a5cbc9195856d113b5e7c23a055b1613143176694fdfabe87a6a41c3c2f205549e368ca541b609455344bd774d7d836f09a551562042e2
   languageName: node
   linkType: hard
 
 "motion@npm:^12.7.5":
-  version: 12.24.7
-  resolution: "motion@npm:12.24.7"
+  version: 12.24.10
+  resolution: "motion@npm:12.24.10"
   dependencies:
-    framer-motion: "npm:^12.24.7"
+    framer-motion: "npm:^12.24.10"
     tslib: "npm:^2.4.0"
   peerDependencies:
     "@emotion/is-prop-valid": "*"
@@ -2131,7 +2131,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/d789052f9f1e801e0390ee279d6db7c6b8d354ad35d4ee4c73a8c7164a26717f031ace64deafc09e6563fa0603ade0f7a9eccde4ea024b9e8176fa85b374fc95
+  checksum: 10c0/3abf35f068f330d50d1ed5ee29361fa0e28ff605f5a19825c22de86fea5bda449d300d431a9b90f7ad9e063dcd2913187f8915b997dc28af00b3eed6fcfdb626
   languageName: node
   linkType: hard
 
@@ -2703,8 +2703,8 @@ __metadata:
   linkType: hard
 
 "vite@npm:^7.0.0":
-  version: 7.3.0
-  resolution: "vite@npm:7.3.0"
+  version: 7.3.1
+  resolution: "vite@npm:7.3.1"
   dependencies:
     esbuild: "npm:^0.27.0"
     fdir: "npm:^6.5.0"
@@ -2753,7 +2753,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10c0/0457c196cdd5761ec351c0f353945430fbad330e615b9eeab729c8ae163334f18acdc1d9cd7d9d673dbf111f07f6e4f0b25d4ac32360e65b4a6df9991046f3ff
+  checksum: 10c0/5c7548f5f43a23533e53324304db4ad85f1896b1bfd3ee32ae9b866bac2933782c77b350eb2b52a02c625c8ad1ddd4c000df077419410650c982cd97fde8d014
   languageName: node
   linkType: hard
 
