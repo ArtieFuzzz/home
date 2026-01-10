@@ -858,8 +858,8 @@ __metadata:
   linkType: hard
 
 "@sveltejs/vite-plugin-svelte@npm:^6.0.0":
-  version: 6.2.3
-  resolution: "@sveltejs/vite-plugin-svelte@npm:6.2.3"
+  version: 6.2.4
+  resolution: "@sveltejs/vite-plugin-svelte@npm:6.2.4"
   dependencies:
     "@sveltejs/vite-plugin-svelte-inspector": "npm:^5.0.0"
     deepmerge: "npm:^4.3.1"
@@ -869,7 +869,7 @@ __metadata:
   peerDependencies:
     svelte: ^5.0.0
     vite: ^6.3.0 || ^7.0.0
-  checksum: 10c0/c6ca2f5e1b5da3054f81660a0470dd26b3ae4960b4b6576ec83f40070b1ffc5441261e4890f640bcd98916cd1ebfce8aa61b45a1c67dcc85904f5c298b1613a5
+  checksum: 10c0/db50e79dc3ce635b92287e1b1cdee46a5f97ed17df514f59d08a27431f673336fe357901c17710b311e5e75b7d982cd17eedbaa3117a73ae2a328fa1d1ac9eb3
   languageName: node
   linkType: hard
 
@@ -1621,9 +1621,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^12.24.12":
-  version: 12.24.12
-  resolution: "framer-motion@npm:12.24.12"
+"framer-motion@npm:^12.25.0":
+  version: 12.25.0
+  resolution: "framer-motion@npm:12.25.0"
   dependencies:
     motion-dom: "npm:^12.24.11"
     motion-utils: "npm:^12.24.10"
@@ -1639,7 +1639,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/4e6ce966d17b34d3736ef565e507d00a06d2aa6e1433554d3eb385e891af0bc9c51a1f1636883e4bf5fa0573c59acf8430706b7c94f514db528567114e051a2d
+  checksum: 10c0/d07b629bf2f1e0a33da15da47f851ab6e0bcdf37ef01f3edf309880ad20c6c776f5d2eebc74d989665e58a8bae261b6ceec3ba48674800857079d26a032b254a
   languageName: node
   linkType: hard
 
@@ -2115,10 +2115,10 @@ __metadata:
   linkType: hard
 
 "motion@npm:^12.7.5":
-  version: 12.24.12
-  resolution: "motion@npm:12.24.12"
+  version: 12.25.0
+  resolution: "motion@npm:12.25.0"
   dependencies:
-    framer-motion: "npm:^12.24.12"
+    framer-motion: "npm:^12.25.0"
     tslib: "npm:^2.4.0"
   peerDependencies:
     "@emotion/is-prop-valid": "*"
@@ -2131,7 +2131,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/5acae28631ced47d8af7b5022cf8ca80cc1782040b3dca2c4b7e64bf7acf7a5ea0a743ed91f5336cfd23ae4007c95838f01a6478d4026aa614907d37f49bc474
+  checksum: 10c0/27c91355ac95a09026198e57e2b4028209dbfa800c80b6fff11c2e73b4aa5a0446149f59f13a549e92f39cb60067d798da860ed272fda7047d29e93564592445
   languageName: node
   linkType: hard
 
