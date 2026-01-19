@@ -1614,11 +1614,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^12.26.2":
-  version: 12.26.2
-  resolution: "framer-motion@npm:12.26.2"
+"framer-motion@npm:^12.27.0":
+  version: 12.27.0
+  resolution: "framer-motion@npm:12.27.0"
   dependencies:
-    motion-dom: "npm:^12.26.2"
+    motion-dom: "npm:^12.27.0"
     motion-utils: "npm:^12.24.10"
     tslib: "npm:^2.4.0"
   peerDependencies:
@@ -1632,7 +1632,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/f2950155c982a95c423d6349cf26b2add58ef7e9633dc1629d2e8506b453699cddaf4c8ad9d8f220c53ce4f6af77740422d4f1c27f2033aeadfee5b941e1b59d
+  checksum: 10c0/1ee25ade1b833850f3588802ad145d4cc14d7609c336ac98157cbd24716a5f4b1a7ae0735529c43936d6c17b6ab4f4ce69c36d11e8915e4ed160abe7447567ba
   languageName: node
   linkType: hard
 
@@ -2091,12 +2091,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"motion-dom@npm:^12.26.2":
-  version: 12.26.2
-  resolution: "motion-dom@npm:12.26.2"
+"motion-dom@npm:^12.27.0":
+  version: 12.27.0
+  resolution: "motion-dom@npm:12.27.0"
   dependencies:
     motion-utils: "npm:^12.24.10"
-  checksum: 10c0/9ec544749008b5f53eb3e3140ac720d8a2e0c1f41178ecb29f5fb7629d92c4b92657bd8449a051baa852090a2ea9eacd0fa3c4c7e64bbaea3504c35fc610d430
+  checksum: 10c0/117a1c122e1eef7caaffa321e8c9cadd1302b10a45a43a48f452bf4fdbcc9ebb347929cb4bfdf6b0799143568ed2de4221f576e48785a7bb7cc96e5407c44325
   languageName: node
   linkType: hard
 
@@ -2108,10 +2108,10 @@ __metadata:
   linkType: hard
 
 "motion@npm:^12.7.5":
-  version: 12.26.2
-  resolution: "motion@npm:12.26.2"
+  version: 12.27.0
+  resolution: "motion@npm:12.27.0"
   dependencies:
-    framer-motion: "npm:^12.26.2"
+    framer-motion: "npm:^12.27.0"
     tslib: "npm:^2.4.0"
   peerDependencies:
     "@emotion/is-prop-valid": "*"
@@ -2124,7 +2124,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/855058938628350f1f8b3accbdfedf538abcb748f92f8f788dcbb1d986528816c7173457e85a53dd36ad48ace8c84d13b0f8eb94e5eb58d4f1bf6884a7cc6739
+  checksum: 10c0/4e1c84e8d530bab3c7ab065064e98e9068644a39bf748d9b627f5e28d6f49b8d6a0f276272b90d7366ee5bc5140a3832ebe4bab992f18219a5b9b76fcc73c113
   languageName: node
   linkType: hard
 
@@ -2566,8 +2566,8 @@ __metadata:
   linkType: hard
 
 "svelte@npm:^5.0.0":
-  version: 5.46.4
-  resolution: "svelte@npm:5.46.4"
+  version: 5.47.0
+  resolution: "svelte@npm:5.47.0"
   dependencies:
     "@jridgewell/remapping": "npm:^2.3.4"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -2584,7 +2584,7 @@ __metadata:
     locate-character: "npm:^3.0.0"
     magic-string: "npm:^0.30.11"
     zimmerframe: "npm:^1.1.2"
-  checksum: 10c0/be108e9a0213223ea45967043f774b6448afa615b0f360b3b94d492bc0145854e8930a97a65cea8533234c2cf1f4f664f80b736402fb634fdba4c3eea2e52fd7
+  checksum: 10c0/085438abbda7d9fa133007f2849fa7e478df366ac90d1d271ecd65a839321ccfbc5ba3449d1dc0efad461e9e127b5179ba0f533bf351ac03645b8433b79889ea
   languageName: node
   linkType: hard
 
