@@ -6,17 +6,17 @@ __metadata:
   cacheKey: 10c0
 
 "@biomejs/biome@npm:^2.0.0":
-  version: 2.3.13
-  resolution: "@biomejs/biome@npm:2.3.13"
+  version: 2.3.14
+  resolution: "@biomejs/biome@npm:2.3.14"
   dependencies:
-    "@biomejs/cli-darwin-arm64": "npm:2.3.13"
-    "@biomejs/cli-darwin-x64": "npm:2.3.13"
-    "@biomejs/cli-linux-arm64": "npm:2.3.13"
-    "@biomejs/cli-linux-arm64-musl": "npm:2.3.13"
-    "@biomejs/cli-linux-x64": "npm:2.3.13"
-    "@biomejs/cli-linux-x64-musl": "npm:2.3.13"
-    "@biomejs/cli-win32-arm64": "npm:2.3.13"
-    "@biomejs/cli-win32-x64": "npm:2.3.13"
+    "@biomejs/cli-darwin-arm64": "npm:2.3.14"
+    "@biomejs/cli-darwin-x64": "npm:2.3.14"
+    "@biomejs/cli-linux-arm64": "npm:2.3.14"
+    "@biomejs/cli-linux-arm64-musl": "npm:2.3.14"
+    "@biomejs/cli-linux-x64": "npm:2.3.14"
+    "@biomejs/cli-linux-x64-musl": "npm:2.3.14"
+    "@biomejs/cli-win32-arm64": "npm:2.3.14"
+    "@biomejs/cli-win32-x64": "npm:2.3.14"
   dependenciesMeta:
     "@biomejs/cli-darwin-arm64":
       optional: true
@@ -36,62 +36,62 @@ __metadata:
       optional: true
   bin:
     biome: bin/biome
-  checksum: 10c0/920c44c755ab8efa2114b441baf74b8f5fae8e6ad98a301ce02228f546d20ef6ab7c33b990b0a4acd1ffc8f5985ae839cf1fec59a6f169732a0f86c14308728b
+  checksum: 10c0/7dc4c0354c59046a24cc23e69465e0d7def81ba85e2039268b828461c5f0978693c68d917e08c554474392314a9b7039fed50487e8fc4b96d039f2f63b1b829a
   languageName: node
   linkType: hard
 
-"@biomejs/cli-darwin-arm64@npm:2.3.13":
-  version: 2.3.13
-  resolution: "@biomejs/cli-darwin-arm64@npm:2.3.13"
+"@biomejs/cli-darwin-arm64@npm:2.3.14":
+  version: 2.3.14
+  resolution: "@biomejs/cli-darwin-arm64@npm:2.3.14"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-darwin-x64@npm:2.3.13":
-  version: 2.3.13
-  resolution: "@biomejs/cli-darwin-x64@npm:2.3.13"
+"@biomejs/cli-darwin-x64@npm:2.3.14":
+  version: 2.3.14
+  resolution: "@biomejs/cli-darwin-x64@npm:2.3.14"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-arm64-musl@npm:2.3.13":
-  version: 2.3.13
-  resolution: "@biomejs/cli-linux-arm64-musl@npm:2.3.13"
+"@biomejs/cli-linux-arm64-musl@npm:2.3.14":
+  version: 2.3.14
+  resolution: "@biomejs/cli-linux-arm64-musl@npm:2.3.14"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-arm64@npm:2.3.13":
-  version: 2.3.13
-  resolution: "@biomejs/cli-linux-arm64@npm:2.3.13"
+"@biomejs/cli-linux-arm64@npm:2.3.14":
+  version: 2.3.14
+  resolution: "@biomejs/cli-linux-arm64@npm:2.3.14"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-x64-musl@npm:2.3.13":
-  version: 2.3.13
-  resolution: "@biomejs/cli-linux-x64-musl@npm:2.3.13"
+"@biomejs/cli-linux-x64-musl@npm:2.3.14":
+  version: 2.3.14
+  resolution: "@biomejs/cli-linux-x64-musl@npm:2.3.14"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-x64@npm:2.3.13":
-  version: 2.3.13
-  resolution: "@biomejs/cli-linux-x64@npm:2.3.13"
+"@biomejs/cli-linux-x64@npm:2.3.14":
+  version: 2.3.14
+  resolution: "@biomejs/cli-linux-x64@npm:2.3.14"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@biomejs/cli-win32-arm64@npm:2.3.13":
-  version: 2.3.13
-  resolution: "@biomejs/cli-win32-arm64@npm:2.3.13"
+"@biomejs/cli-win32-arm64@npm:2.3.14":
+  version: 2.3.14
+  resolution: "@biomejs/cli-win32-arm64@npm:2.3.14"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-win32-x64@npm:2.3.13":
-  version: 2.3.13
-  resolution: "@biomejs/cli-win32-x64@npm:2.3.13"
+"@biomejs/cli-win32-x64@npm:2.3.14":
+  version: 2.3.14
+  resolution: "@biomejs/cli-win32-x64@npm:2.3.14"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -1614,11 +1614,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^12.30.0":
-  version: 12.30.0
-  resolution: "framer-motion@npm:12.30.0"
+"framer-motion@npm:^12.31.0":
+  version: 12.31.0
+  resolution: "framer-motion@npm:12.31.0"
   dependencies:
-    motion-dom: "npm:^12.30.0"
+    motion-dom: "npm:^12.30.1"
     motion-utils: "npm:^12.29.2"
     tslib: "npm:^2.4.0"
   peerDependencies:
@@ -1632,7 +1632,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/98fe34d8f3af96a73b31a14c10dcdc9bed4728c64843e1fd89d9ee5571efcf0e1772dc89e49678264aeeb6fdb61515d3ace6f637cba0bb0ad6cd1222ea9df31b
+  checksum: 10c0/30d7bbc2eb57914d8e7ac2269d8f8eaacfee79e268aa1635096c8ba47977554ec70a8bb8b5746cc3de3c25775535c9d6f3e6443c02625575ac85756fbd5864dd
   languageName: node
   linkType: hard
 
@@ -2091,12 +2091,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"motion-dom@npm:^12.30.0":
-  version: 12.30.0
-  resolution: "motion-dom@npm:12.30.0"
+"motion-dom@npm:^12.30.1":
+  version: 12.30.1
+  resolution: "motion-dom@npm:12.30.1"
   dependencies:
     motion-utils: "npm:^12.29.2"
-  checksum: 10c0/3f8188cfe895f21b27263d412526e0280e4a2aa0c28d6079c5ffacf1db5acc005e2c0b83df9790126f524f073637f326fdf37302ab6c6859659ad0bccc906871
+  checksum: 10c0/ddf1d27d4bda24a5ab9d2a9cb033283297465fb02caa5199b316341a1b4eeba84dcadf6f43ea5ea611d1a0411c37f79e39a885861b897043c9452bb6dc007653
   languageName: node
   linkType: hard
 
@@ -2108,10 +2108,10 @@ __metadata:
   linkType: hard
 
 "motion@npm:^12.7.5":
-  version: 12.30.0
-  resolution: "motion@npm:12.30.0"
+  version: 12.31.0
+  resolution: "motion@npm:12.31.0"
   dependencies:
-    framer-motion: "npm:^12.30.0"
+    framer-motion: "npm:^12.31.0"
     tslib: "npm:^2.4.0"
   peerDependencies:
     "@emotion/is-prop-valid": "*"
@@ -2124,7 +2124,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/50c1d49c044594f7d1d9cc3d56c2a47511f6fa416fcbf69f412d9e84bc7590ebaff6670da1a2df08e577ae21bb05de2c772361d9212040ebfa0989eef912a5d7
+  checksum: 10c0/c7964c05dc868389d272d4fc7af205500c3ead21e2e815b7715f74a1a756f5aef7e6371af01651ea40946ae6b35e70dfefd77ec549f8f45e49ec84c2c1b7b556
   languageName: node
   linkType: hard
 
