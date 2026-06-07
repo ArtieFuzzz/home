@@ -812,8 +812,8 @@ __metadata:
   linkType: hard
 
 "@sveltejs/kit@npm:^2.16.0":
-  version: 2.62.0
-  resolution: "@sveltejs/kit@npm:2.62.0"
+  version: 2.63.0
+  resolution: "@sveltejs/kit@npm:2.63.0"
   dependencies:
     "@standard-schema/spec": "npm:^1.0.0"
     "@sveltejs/acorn-typescript": "npm:^1.0.9"
@@ -840,7 +840,14 @@ __metadata:
       optional: true
   bin:
     svelte-kit: svelte-kit.js
-  checksum: 10c0/bd5957d80e73f3244de9a2bb1d10cbc12004bbabe4e52263e69d11fc3c62d8c47a9e1f39d7b04504a71305ae84a7fb073a2d9385be843963ed09c0efaa33db7b
+  checksum: 10c0/df125f1bb6e64a7e2c5923fe2c25ecca729ac95ee87baf20da8bad6d575ddebcbf6b3dfa4e3a9433c672a146918b4685b01ec03629853d0f099e66c18686d669
+  languageName: node
+  linkType: hard
+
+"@sveltejs/load-config@npm:0.1.1":
+  version: 0.1.1
+  resolution: "@sveltejs/load-config@npm:0.1.1"
+  checksum: 10c0/9de8a176e164ddd256899921adf871c1fbc504179d209faa4d9617d7ecd41eb7df240f3375ae421802bf973c97585470210b45b7bff5a870d20f9f560ebdadf2
   languageName: node
   linkType: hard
 
@@ -1578,9 +1585,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esrap@npm:^2.2.9":
-  version: 2.2.9
-  resolution: "esrap@npm:2.2.9"
+"esrap@npm:^2.2.11":
+  version: 2.2.11
+  resolution: "esrap@npm:2.2.11"
   dependencies:
     "@jridgewell/sourcemap-codec": "npm:^1.4.15"
   peerDependencies:
@@ -1588,7 +1595,7 @@ __metadata:
   peerDependenciesMeta:
     "@typescript-eslint/types":
       optional: true
-  checksum: 10c0/d1ea8dc29468cbbb8e8c855f9c1b807a51fcb827b7412350753709736dda43ea27097f83e5b86b31abd7669edb5e36a23209817ddca5434b1718561153b6a1b1
+  checksum: 10c0/4e599158c294ac95ebe7e4df49d512e880544e8100cf6c01f9055ccff111d74da78f4005bb5cded5ffbae9fd9a4e4ffc382f1a4404060de14187502d8dc42b0c
   languageName: node
   linkType: hard
 
@@ -2569,10 +2576,11 @@ __metadata:
   linkType: hard
 
 "svelte-check@npm:^4.0.0":
-  version: 4.5.0
-  resolution: "svelte-check@npm:4.5.0"
+  version: 4.6.0
+  resolution: "svelte-check@npm:4.6.0"
   dependencies:
     "@jridgewell/trace-mapping": "npm:^0.3.25"
+    "@sveltejs/load-config": "npm:0.1.1"
     chokidar: "npm:^4.0.1"
     fdir: "npm:^6.2.0"
     picocolors: "npm:^1.0.0"
@@ -2582,13 +2590,13 @@ __metadata:
     typescript: ">=5.0.0"
   bin:
     svelte-check: bin/svelte-check
-  checksum: 10c0/a099676eee1400e26e0a67409f8422cb99bac07d3cb108b1cc50c48c113efb50dffa0320943bffdf77a19a0ac46eccfcc5047783404b91374002002aba28c0b8
+  checksum: 10c0/ecfcad25c6bb450c1d9c1fd0eb4c244156d0477db73048637addbf8c3159ce53e125e5411d9009f124196c6b7e359a5a5a3af5b304adebb51d85e2a9dac9ae9c
   languageName: node
   linkType: hard
 
 "svelte@npm:^5.0.0":
-  version: 5.56.1
-  resolution: "svelte@npm:5.56.1"
+  version: 5.56.2
+  resolution: "svelte@npm:5.56.2"
   dependencies:
     "@jridgewell/remapping": "npm:^2.3.4"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -2601,12 +2609,12 @@ __metadata:
     clsx: "npm:^2.1.1"
     devalue: "npm:^5.8.1"
     esm-env: "npm:^1.2.1"
-    esrap: "npm:^2.2.9"
+    esrap: "npm:^2.2.11"
     is-reference: "npm:^3.0.3"
     locate-character: "npm:^3.0.0"
     magic-string: "npm:^0.30.11"
     zimmerframe: "npm:^1.1.2"
-  checksum: 10c0/09420cbd98f57b926bc1b84ca94a4f96ba0502c20dd38de419fa9aed62a3188306307ceb6a96b89d9398e870bbd0b5c6cb3c2de8c69b652268ef666b343ed58c
+  checksum: 10c0/8a3613ba28f1d6d4d431741c251b148668b920abc82867fff82c15c0baf2000daa0817dde990050853c4b3f1ee439238d0cc99cf77f5d13d7356d8ea91b5d602
   languageName: node
   linkType: hard
 
