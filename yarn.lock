@@ -6,17 +6,17 @@ __metadata:
   cacheKey: 10c0
 
 "@biomejs/biome@npm:^2.0.0":
-  version: 2.5.0
-  resolution: "@biomejs/biome@npm:2.5.0"
+  version: 2.5.1
+  resolution: "@biomejs/biome@npm:2.5.1"
   dependencies:
-    "@biomejs/cli-darwin-arm64": "npm:2.5.0"
-    "@biomejs/cli-darwin-x64": "npm:2.5.0"
-    "@biomejs/cli-linux-arm64": "npm:2.5.0"
-    "@biomejs/cli-linux-arm64-musl": "npm:2.5.0"
-    "@biomejs/cli-linux-x64": "npm:2.5.0"
-    "@biomejs/cli-linux-x64-musl": "npm:2.5.0"
-    "@biomejs/cli-win32-arm64": "npm:2.5.0"
-    "@biomejs/cli-win32-x64": "npm:2.5.0"
+    "@biomejs/cli-darwin-arm64": "npm:2.5.1"
+    "@biomejs/cli-darwin-x64": "npm:2.5.1"
+    "@biomejs/cli-linux-arm64": "npm:2.5.1"
+    "@biomejs/cli-linux-arm64-musl": "npm:2.5.1"
+    "@biomejs/cli-linux-x64": "npm:2.5.1"
+    "@biomejs/cli-linux-x64-musl": "npm:2.5.1"
+    "@biomejs/cli-win32-arm64": "npm:2.5.1"
+    "@biomejs/cli-win32-x64": "npm:2.5.1"
   dependenciesMeta:
     "@biomejs/cli-darwin-arm64":
       optional: true
@@ -36,62 +36,62 @@ __metadata:
       optional: true
   bin:
     biome: bin/biome
-  checksum: 10c0/53ca615db3b8da17ec477df0bdc55e12b986d35211722d223ab08c3ead5d9e518518a2bfc81f6923d1d2c05bdaacdff2ea749e9d12857bd85d7b8fc45cd0215e
+  checksum: 10c0/3b2ec858e28d2a7e203609151fe670427150b4c8abda2292e22357facc5955a246e7338e9d6df3d9a76da6a2cf2069483f4b3abadf17680aec5c740653fe09a5
   languageName: node
   linkType: hard
 
-"@biomejs/cli-darwin-arm64@npm:2.5.0":
-  version: 2.5.0
-  resolution: "@biomejs/cli-darwin-arm64@npm:2.5.0"
+"@biomejs/cli-darwin-arm64@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@biomejs/cli-darwin-arm64@npm:2.5.1"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-darwin-x64@npm:2.5.0":
-  version: 2.5.0
-  resolution: "@biomejs/cli-darwin-x64@npm:2.5.0"
+"@biomejs/cli-darwin-x64@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@biomejs/cli-darwin-x64@npm:2.5.1"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-arm64-musl@npm:2.5.0":
-  version: 2.5.0
-  resolution: "@biomejs/cli-linux-arm64-musl@npm:2.5.0"
+"@biomejs/cli-linux-arm64-musl@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@biomejs/cli-linux-arm64-musl@npm:2.5.1"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-arm64@npm:2.5.0":
-  version: 2.5.0
-  resolution: "@biomejs/cli-linux-arm64@npm:2.5.0"
+"@biomejs/cli-linux-arm64@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@biomejs/cli-linux-arm64@npm:2.5.1"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-x64-musl@npm:2.5.0":
-  version: 2.5.0
-  resolution: "@biomejs/cli-linux-x64-musl@npm:2.5.0"
+"@biomejs/cli-linux-x64-musl@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@biomejs/cli-linux-x64-musl@npm:2.5.1"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@biomejs/cli-linux-x64@npm:2.5.0":
-  version: 2.5.0
-  resolution: "@biomejs/cli-linux-x64@npm:2.5.0"
+"@biomejs/cli-linux-x64@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@biomejs/cli-linux-x64@npm:2.5.1"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@biomejs/cli-win32-arm64@npm:2.5.0":
-  version: 2.5.0
-  resolution: "@biomejs/cli-win32-arm64@npm:2.5.0"
+"@biomejs/cli-win32-arm64@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@biomejs/cli-win32-arm64@npm:2.5.1"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@biomejs/cli-win32-x64@npm:2.5.0":
-  version: 2.5.0
-  resolution: "@biomejs/cli-win32-x64@npm:2.5.0"
+"@biomejs/cli-win32-x64@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@biomejs/cli-win32-x64@npm:2.5.1"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -844,10 +844,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/load-config@npm:0.1.1":
-  version: 0.1.1
-  resolution: "@sveltejs/load-config@npm:0.1.1"
-  checksum: 10c0/9de8a176e164ddd256899921adf871c1fbc504179d209faa4d9617d7ecd41eb7df240f3375ae421802bf973c97585470210b45b7bff5a870d20f9f560ebdadf2
+"@sveltejs/load-config@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@sveltejs/load-config@npm:0.2.0"
+  checksum: 10c0/abb9f8533493661a31d0c0aa9ebd143afeff3a81e7ca5b9e41f1d61cebe31cbeb8ea717a66b3ff146d940bb5d32e8caf94e2ac5f282ae8f268e28dbaa19421ab
   languageName: node
   linkType: hard
 
@@ -1594,9 +1594,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esrap@npm:^2.2.11":
-  version: 2.2.11
-  resolution: "esrap@npm:2.2.11"
+"esrap@npm:^2.2.12":
+  version: 2.2.12
+  resolution: "esrap@npm:2.2.12"
   dependencies:
     "@jridgewell/sourcemap-codec": "npm:^1.4.15"
   peerDependencies:
@@ -1604,7 +1604,7 @@ __metadata:
   peerDependenciesMeta:
     "@typescript-eslint/types":
       optional: true
-  checksum: 10c0/4e599158c294ac95ebe7e4df49d512e880544e8100cf6c01f9055ccff111d74da78f4005bb5cded5ffbae9fd9a4e4ffc382f1a4404060de14187502d8dc42b0c
+  checksum: 10c0/9e8512b8daf11b83e6001cb49647df378aaecf85d7f4a04645c36661d60023a1405f4d551f52db38d36e3233470ff20042b85ac3d3b88029408a0e45770c9de3
   languageName: node
   linkType: hard
 
@@ -1651,11 +1651,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^12.40.0":
-  version: 12.40.0
-  resolution: "framer-motion@npm:12.40.0"
+"framer-motion@npm:^12.41.0":
+  version: 12.41.0
+  resolution: "framer-motion@npm:12.41.0"
   dependencies:
-    motion-dom: "npm:^12.40.0"
+    motion-dom: "npm:^12.41.0"
     motion-utils: "npm:^12.39.0"
     tslib: "npm:^2.4.0"
   peerDependencies:
@@ -1669,7 +1669,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/a1d26908d6661028fcdba0cf200fca18927a4d4eae0b1e64c37dfb7fdea9da66a8991abd0007079e98687060ba9c83db55620c238bc363106a24ff411d22f533
+  checksum: 10c0/77c9676586f1e4632ec66d73eec18d512b59f3268e7e9c8ef4061b8ae0ce29724b740ccb81630c4632202d62ea06e91065b26b732dad21fdeae732461f597175
   languageName: node
   linkType: hard
 
@@ -2128,12 +2128,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"motion-dom@npm:^12.40.0":
-  version: 12.40.0
-  resolution: "motion-dom@npm:12.40.0"
+"motion-dom@npm:^12.41.0":
+  version: 12.41.0
+  resolution: "motion-dom@npm:12.41.0"
   dependencies:
     motion-utils: "npm:^12.39.0"
-  checksum: 10c0/79da846a36fd5f6762a0fcfa6e0b7128e4d58f7c07d1467a9f789a9cd0b5adbef9bfbde75760901a13cf2bddd9b31e93e4348a714f570c45ca1e2bfabd22859e
+  checksum: 10c0/9a7225979e54f575f7f5f9f72c9650bf5e7e818e6f9fd7cfe188896eeac5ba63b529dc61980456ae73774fa07b67e6d18e68144cce3102336b494dd6f249a088
   languageName: node
   linkType: hard
 
@@ -2145,10 +2145,10 @@ __metadata:
   linkType: hard
 
 "motion@npm:^12.7.5":
-  version: 12.40.0
-  resolution: "motion@npm:12.40.0"
+  version: 12.41.0
+  resolution: "motion@npm:12.41.0"
   dependencies:
-    framer-motion: "npm:^12.40.0"
+    framer-motion: "npm:^12.41.0"
     tslib: "npm:^2.4.0"
   peerDependencies:
     "@emotion/is-prop-valid": "*"
@@ -2161,7 +2161,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/d0c118ed4829f2999c3ab7eb1ee916df70c65e95d262e951b69d3cea67a74e4a1d12e181badf4180e0d01c1ca8a9b109be4ea5456cad04bb58d4510f071af60f
+  checksum: 10c0/ae14ea40cd6f4ce5e8c9e995e5a2335dba110b6bd5b2c4f148da25ce9f4f94e7c12d09d3466a46111fc6d3436429daf586c05a83e04be1dad7ed529be2570760
   languageName: node
   linkType: hard
 
@@ -2585,11 +2585,11 @@ __metadata:
   linkType: hard
 
 "svelte-check@npm:^4.0.0":
-  version: 4.6.0
-  resolution: "svelte-check@npm:4.6.0"
+  version: 4.7.0
+  resolution: "svelte-check@npm:4.7.0"
   dependencies:
     "@jridgewell/trace-mapping": "npm:^0.3.25"
-    "@sveltejs/load-config": "npm:0.1.1"
+    "@sveltejs/load-config": "npm:^0.2.0"
     chokidar: "npm:^4.0.1"
     fdir: "npm:^6.2.0"
     picocolors: "npm:^1.0.0"
@@ -2599,13 +2599,13 @@ __metadata:
     typescript: ">=5.0.0"
   bin:
     svelte-check: bin/svelte-check
-  checksum: 10c0/ecfcad25c6bb450c1d9c1fd0eb4c244156d0477db73048637addbf8c3159ce53e125e5411d9009f124196c6b7e359a5a5a3af5b304adebb51d85e2a9dac9ae9c
+  checksum: 10c0/fcafee0aa55c2d740550f0118e7253fcd105d33fdaaad29234d654f14ec57aff3450979a3b7f723a4177cab6819048c5486eff4a9559aacd85d454fc2a2a4a9a
   languageName: node
   linkType: hard
 
 "svelte@npm:^5.0.0":
-  version: 5.56.3
-  resolution: "svelte@npm:5.56.3"
+  version: 5.56.4
+  resolution: "svelte@npm:5.56.4"
   dependencies:
     "@jridgewell/remapping": "npm:^2.3.4"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -2618,12 +2618,12 @@ __metadata:
     clsx: "npm:^2.1.1"
     devalue: "npm:^5.8.1"
     esm-env: "npm:^1.2.1"
-    esrap: "npm:^2.2.11"
+    esrap: "npm:^2.2.12"
     is-reference: "npm:^3.0.3"
     locate-character: "npm:^3.0.0"
     magic-string: "npm:^0.30.11"
     zimmerframe: "npm:^1.1.2"
-  checksum: 10c0/04300af7549e9288c5679aaedad34f4117c95e6068d3078a168c43b6ed97ca7989a3baac966dd91d7867a480042aa4ff08654c379d2252a35cb145dfaa0f5afe
+  checksum: 10c0/949e07077cd1a2bd4ab96bd09fe536c925064bcc3cbb3f0d4ac39f3acef56c0bbb61e49765b08c2e63bddfd05aa0d4f3ef3f3a79c87d84b2d5b23bb2a9158f7a
   languageName: node
   linkType: hard
 
