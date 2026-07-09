@@ -812,8 +812,8 @@ __metadata:
   linkType: hard
 
 "@sveltejs/kit@npm:^2.16.0":
-  version: 2.69.1
-  resolution: "@sveltejs/kit@npm:2.69.1"
+  version: 2.69.2
+  resolution: "@sveltejs/kit@npm:2.69.2"
   dependencies:
     "@standard-schema/spec": "npm:^1.0.0"
     "@sveltejs/acorn-typescript": "npm:^1.0.9"
@@ -840,7 +840,7 @@ __metadata:
       optional: true
   bin:
     svelte-kit: svelte-kit.js
-  checksum: 10c0/12b146417f85c9e171e186db04e41570129cd22d6bb938a15c35cc175fea7c5963978970ebe2986105b41393ad10ae23ca619c97a67b27039c84af638f1cd597
+  checksum: 10c0/e087746599561945451d808bf3f4bb99c0f39de694f758942eceef622d635092fa9a4bf8bc95062b3b218c05f0200d91735c0ce9276208e16b9b381cfc828244
   languageName: node
   linkType: hard
 
@@ -2585,8 +2585,8 @@ __metadata:
   linkType: hard
 
 "svelte-check@npm:^4.0.0":
-  version: 4.7.1
-  resolution: "svelte-check@npm:4.7.1"
+  version: 4.7.2
+  resolution: "svelte-check@npm:4.7.2"
   dependencies:
     "@jridgewell/trace-mapping": "npm:^0.3.25"
     "@sveltejs/load-config": "npm:^0.2.0"
@@ -2599,7 +2599,7 @@ __metadata:
     typescript: ">=5.0.0"
   bin:
     svelte-check: bin/svelte-check
-  checksum: 10c0/2c836957acf2571c730d0fe484713905db63c3b0c6d8c9c8fb2a4d58dd1b0dee40b4078f2f0ef290a84efcce0cfc03128ba9275c37d6c577b0b630bf8f59361f
+  checksum: 10c0/7a48c8fdb02b72c067e4690371f6bf41bc001e18a2455019176c3be3dfa2d3b2147622a8956991d5576ae628154fe918e82e03c476c9afe4967bbc90a84b38ef
   languageName: node
   linkType: hard
 
