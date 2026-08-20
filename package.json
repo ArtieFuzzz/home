@@ -28,7 +28,7 @@
     "@yuna0x0/sk-lanyard": "^0.4.0",
     "dayjs": "^1.11.13",
     "iconify-icon": "^3.0.0",
-    "motion": "^12.7.5",
+    "motion": "^13.0.0",
     "tailwindcss": "^4.1.4"
   }
 }
