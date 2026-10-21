@@ -1805,11 +1805,11 @@ __metadata:
   linkType: hard
 
 "iconify-icon@npm:^3.0.0":
-  version: 3.0.3
-  resolution: "iconify-icon@npm:3.0.3"
+  version: 3.0.4
+  resolution: "iconify-icon@npm:3.0.4"
   dependencies:
     "@iconify/types": "npm:^2.0.0"
-  checksum: 10c0/2e7d7d156b65d6838dc9501aefa7c7f1898c841ad5b6fd455e2b4e4da044aa61794947318bd9cff999715c25ffae5fd31fe3cfe814d4d53df9eb60134c8cd16a
+  checksum: 10c0/e44fffa2717e7a71d77184c753da9030290310478e6ff0686d4730baa49d3a9117251639ce194349b89b207669b9e03b07683df92cc50d4e1c3e762d1074ed3a
   languageName: node
   linkType: hard
 
